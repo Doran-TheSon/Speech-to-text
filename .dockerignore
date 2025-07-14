@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.m4a
+*.wav
+*.mp3
+*.log
+.env
+.git/
+node_modules/

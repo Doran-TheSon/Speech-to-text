@@ -1,0 +1,7 @@
+source venv/Scripts/activate
+
+docker pull lowerquality/gentle
+docker run -it -p 8765:8765 lowerquality/gentle
+----------------------------
+docker run -it -p 8765:8765 lowerquality/gentle
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
